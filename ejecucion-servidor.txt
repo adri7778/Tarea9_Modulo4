@@ -1,0 +1,9 @@
+Cuando se ejecuta "node server.js", se ejecuta el motor de Node.js, el cual lee el contenido del archivo "server.js" y lo ejecuta como código JavaScript.
+
+El mensaje que se muestra en la terminal es: "Servidor ejecutándose en puerto 3000"
+
+Al visitar la ruta "http://localhost:3000/estado", el navegador hace una petición a esa ruta, petición que es respondida por nuestro servidor.
+El servidor envía una respuesta tipo JSON, la cual el navegador muestra tal cual.
+
+La respuesta es:
+{"estado":"Servidor funcionando","servicio":"API comunitaria"}
